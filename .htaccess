@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "zepto security"
+AuthUserFile "zeptoweb.github.io/.htpasswd"
+require valid-user
