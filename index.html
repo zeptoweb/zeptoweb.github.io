@@ -3,9 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <title>ZeptoWeb</title>
+    <script type="text/javascript">
+    function gate() {
+      var UserInput = prompt("パスワードを入力して下さい:","");
+      location.href = UserInput + ".html";
+    }
+    </script>
   </head>
   <body>
     <h1>ZeptoWebへようこそ!</h1>
     <p>このサイトは、<strong>現在作成中</strong>です</p>
+    <input type="button" value="パスワードを入力して秘密のページへアクセスする" onclick="gate();">
   </body>
 </html>
